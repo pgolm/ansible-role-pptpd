@@ -6,7 +6,7 @@ Tested with Ubuntu 13.04 x64
 
 ## Run
 
-Set the **username**/**password** in ```vars.yml``` and Run:
+Set the **username** / **password** in ```vars.yml``` and Run:
 
 ```bash
 ANSIBLE_HOSTS=<server-ip>, ansible-playbook vpn.yml
