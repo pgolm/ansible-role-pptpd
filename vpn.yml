@@ -1,0 +1,7 @@
+---
+- hosts: all
+  gather_facts: false
+  vars_files:
+    - vars.yml
+  roles:
+     - { role: pptpd, user: $vpn_username, password: $vpn_password }
